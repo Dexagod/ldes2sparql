@@ -72,7 +72,6 @@
         rdfl:envDefault "false"^^xsd:boolean;
         rdfl:envKey "LAST_VERSION_ONLY"
     ];
-    rdfc:shapeFile "${SHAPE}";
     rdfc:fetch [
         a rdfc:FetchConfig;
         rdfc:concurrent [
